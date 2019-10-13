@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="80dp"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/error_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/ic_grid_off_black_24dp"
+        android:tint="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/error_view_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:text="@string/no_item_yet_find_and_like_your_movie_tv_show_from_moo_v_app"
+        android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>
